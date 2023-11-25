@@ -17,7 +17,7 @@ const SetUpPage = ()=> {
   
     return (
       <div className="p-4">
-        Root page
+       
       </div>
     );
   }
