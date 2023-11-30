@@ -15,7 +15,7 @@ export const BillBoardClient = () => {
       <div className="flex items-center justify-between w-full ">
         <Heading title="BillBoard(0)" description="Manage your BillBoards" />
 
-        <Button className="ml-auto" onClick = {()=>router.push(`/${params.storeId}/billboards/new`)}>
+        <Button className="ml-auto" onClick = {()=>router.push(`/${params.storeId}/billBoards/new`)}>
           <Plus className="h-4 w-4 mr-2 " />
           Add New
         </Button>
