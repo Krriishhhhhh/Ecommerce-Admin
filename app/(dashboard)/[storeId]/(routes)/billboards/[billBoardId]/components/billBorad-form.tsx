@@ -66,8 +66,8 @@ export const BillBoardForm: React.FC<BillBoardFormProps> = ({
       } else {
         await axios.post(`/api/${params.storeId}/billBoards`, data);
       }
-      router.refresh();
       router.push(`/${params.storeId}/billBoards`);
+      router.refresh();
       toast.success(toastMessage);
     } catch (error: any) {
       toast.error('Something went wrong.');
