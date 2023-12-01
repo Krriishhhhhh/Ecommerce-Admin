@@ -86,7 +86,7 @@ export const SettingForm: React.FC<SettingFormProps> = ({ initialData }) => {
         loading={loading}
       />
       <div className="flex items-center justify-center  ">
-        <Heading title="Settings" description="Magage Store Preference" />
+        <Heading title="Settings" description="Manage Store Preference" />
 
         <Button
           disabled={loading}
